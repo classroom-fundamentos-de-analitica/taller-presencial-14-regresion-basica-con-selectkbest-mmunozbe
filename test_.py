@@ -29,7 +29,7 @@ def load_estimator():
     return estimator
 
 
-def test():
+def test_():
 
     from sklearn.metrics import accuracy_score
 
@@ -44,4 +44,4 @@ def test():
     assert accuracy > 0.9545
 
 
-test()
+test_()
